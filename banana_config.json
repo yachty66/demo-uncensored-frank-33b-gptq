@@ -1,0 +1,26 @@
+{
+    "version": "1",
+    "inputs": [
+        {
+            "name": "instruction",
+            "description": "The prompt to provide to the model.",
+            "type": "string",
+            "required": true
+        },
+        {
+            "name": "temperature",
+            "description": "Temperature setting for the model.",
+            "type": "number",
+            "required": false,
+            "min": 0,
+            "max": 1
+        },
+        {
+            "name": "max_new_tokens",
+            "description": "Maximum tokens which are outputted by the model.",
+            "type": "number",
+            "required": false,
+            "min": 100
+        }
+    ]
+}
